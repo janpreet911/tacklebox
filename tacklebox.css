@@ -5,7 +5,7 @@
 }
 header {
     max-width: 1920px;
-    background-color: #000;
+    background-image: url(./images/layer12334.png);
 }
 
 
@@ -28,7 +28,22 @@ nav ul li a{
     color: white;
 }
 .s1{
-    background-image: url(#808080);
+    background-image: url(./images/Background-image.png);
+    width: 1725px;
+        height: 784px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-top: 4rem;
+}
+
+.para-s1 {
+    position: absolute;
+    bottom: 24rem;
+    left: 17rem;
+}
+.image-s1 {
+    position: relative;
 }
 .nav-email {
     display: flex;
@@ -42,6 +57,7 @@ h1{
 line-height: 100px;
 color: #ffffff;
 font-weight: 100;
+padding-top: 4rem;
 }
 .s2{
     padding-top: 12.5rem;
@@ -77,3 +93,77 @@ h3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.s3{
+    width: 1725px;
+     background-image: url(./images/rectagle-1.png);
+        height: 784px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-top: 4rem;
+}
+.s3-1 {
+    position: absolute;
+    right: 4rem;
+    bottom: 13rem;
+}
+h4 {
+    margin-top: 3rem;
+    font-size: 40px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.btn-1{
+    width: 330px;
+    height:117px;
+    font-size: 20px;
+letter-spacing: 2px;
+line-height: 40px;
+text-transform: uppercase;
+color: #ffffff;
+}
+
+
+.clients {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    padding-top: 5rem;
+}
+.clients-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    padding-top: 5rem;
+}
+
+
+.x {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+section.s6 {
+    padding-top: 3rem;
+}   
+.table tr,td {
+    width: 10%;
+    padding-top: 3rem;
+    color: #ffffff;
+    border-collapse: collapse;
+    border: 1px solid green;
+   
+}
+.s7.container{
+    background-image: url(./images/Background.png);
+}
+    
+
+
+
+
+
+
