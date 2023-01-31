@@ -160,7 +160,14 @@ section.s6 {
 .s7.container{
     background-image: url(./images/Background.png);
 }
-    
+.div-s7 {
+    display: flex;
+    justify-content: space-between;
+}
+h5{
+    color: #ffffff;
+}
+
 
 
 
